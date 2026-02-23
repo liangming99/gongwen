@@ -1,0 +1,63 @@
+/**
+ * CSS 变量定义
+ * 用于动态绑定格式配置
+ */
+
+:root {
+  /* 页面设置 */
+  --page-margin-top: 3.7cm;
+  --page-margin-bottom: 3.5cm;
+  --page-margin-left: 2.8cm;
+  --page-margin-right: 2.6cm;
+
+  /* 主标题字体 */
+  --font-main-title-family: '方正小标宋简体', '方正小标宋_GBK', '宋体', SimSun, serif;
+  --font-main-title-size: 22pt;
+  --font-main-title-weight: normal;
+
+  /* 一级标题字体 */
+  --font-level-1-family: '黑体', SimHei, sans-serif;
+  --font-level-1-size: 16pt;
+  --font-level-1-weight: bold;
+
+  /* 二级标题字体 */
+  --font-level-2-family: '楷体', KaiTi, '楷体_GB2312', serif;
+  --font-level-2-size: 16pt;
+  --font-level-2-weight: bold;
+
+  /* 三级标题字体 */
+  --font-level-3-family: '仿宋', FangSong, '仿宋_GB2312', serif;
+  --font-level-3-size: 16pt;
+  --font-level-3-weight: bold;
+
+  /* 四级标题字体 */
+  --font-level-4-family: '仿宋', FangSong, '仿宋_GB2312', serif;
+  --font-level-4-size: 16pt;
+  --font-level-4-weight: normal;
+
+  /* 正文字体 */
+  --font-body-family: '仿宋', FangSong, '仿宋_GB2312', serif;
+  --font-body-size: 16pt;
+  --font-body-weight: normal;
+
+  /* 页码字体 */
+  --font-page-number-family: '宋体', SimSun, serif;
+  --font-page-number-size: 14pt;
+  --font-page-number-weight: normal;
+
+  /* 间距设置 */
+  --line-height: 29pt;
+  --first-line-indent: 2em;
+  --paragraph-spacing: 0;
+
+  /* 颜色 */
+  --color-text: #000000;
+  --color-background: #ffffff;
+  --color-border: #d9d9d9;
+  --color-primary: #1890ff;
+  --color-secondary: #f0f0f0;
+
+  /* A4 尺寸 */
+  --a4-width: 210mm;
+  --a4-height: 297mm;
+}

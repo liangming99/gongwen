@@ -1,0 +1,26 @@
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  background: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  padding: var(--page-margin-top) var(--page-margin-right) var(--page-margin-bottom) var(--page-margin-left);
+  min-height: 297mm;
+}
+
+.pageNumber {
+  font-family: var(--font-page-number-family);
+  font-size: var(--font-page-number-size);
+  font-weight: var(--font-page-number-weight);
+  text-align: center;
+  position: absolute;
+  bottom: calc(var(--page-margin-bottom) / 2);
+  left: 0;
+  right: 0;
+  color: #333;
+}

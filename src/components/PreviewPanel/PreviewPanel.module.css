@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #f0f2f5;
+}
+
+.toolbar {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: white;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.toolbarTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pageInfo {
+  font-size: 12px;
+  color: #666;
+}
+
+.previewArea {
+  flex: 1;
+  overflow: auto;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: calc(100vh - 56px - 48px);
+}
+
+.pageWrapper {
+  transform-origin: top center;
+  flex-shrink: 0;
+}
+
+.pageWrapper {
+  transform-origin: top center;
+}

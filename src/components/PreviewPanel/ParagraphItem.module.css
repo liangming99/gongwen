@@ -1,0 +1,91 @@
+.paragraph {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  word-break: break-all;
+}
+
+/* 主标题 */
+.mainTitle {
+  composes: paragraph;
+  font-family: var(--font-main-title-family);
+  font-size: var(--font-main-title-size);
+  font-weight: var(--font-main-title-weight);
+  text-align: center;
+  line-height: var(--line-height);
+  margin-bottom: 24pt;
+}
+
+/* 一级标题：黑体 */
+.level1 {
+  composes: paragraph;
+  font-family: var(--font-level-1-family);
+  font-size: var(--font-level-1-size);
+  font-weight: var(--font-level-1-weight);
+  line-height: var(--line-height);
+  margin-top: calc(var(--paragraph-spacing) + 6pt);
+  margin-bottom: var(--paragraph-spacing);
+}
+
+/* 二级标题：楷体 */
+.level2 {
+  composes: paragraph;
+  font-family: var(--font-level-2-family);
+  font-size: var(--font-level-2-size);
+  font-weight: var(--font-level-2-weight);
+  line-height: var(--line-height);
+  margin-top: calc(var(--paragraph-spacing) + 3pt);
+  margin-bottom: var(--paragraph-spacing);
+}
+
+/* 三级标题：仿宋加粗 */
+.level3 {
+  composes: paragraph;
+  font-family: var(--font-level-3-family);
+  font-size: var(--font-level-3-size);
+  font-weight: var(--font-level-3-weight);
+  line-height: var(--line-height);
+  margin-top: var(--paragraph-spacing);
+  margin-bottom: var(--paragraph-spacing);
+}
+
+/* 四级标题：仿宋 */
+.level4 {
+  composes: paragraph;
+  font-family: var(--font-level-4-family);
+  font-size: var(--font-level-4-size);
+  font-weight: var(--font-level-4-weight);
+  line-height: var(--line-height);
+  margin-top: var(--paragraph-spacing);
+  margin-bottom: var(--paragraph-spacing);
+}
+
+/* 正文 */
+.body {
+  composes: paragraph;
+  font-family: var(--font-body-family);
+  font-size: var(--font-body-size);
+  font-weight: var(--font-body-weight);
+  line-height: var(--line-height);
+  text-indent: var(--first-line-indent);
+  margin-top: var(--paragraph-spacing);
+  margin-bottom: var(--paragraph-spacing);
+}
+
+/* 落款 */
+.signature {
+  composes: paragraph;
+  font-family: var(--font-body-family);
+  font-size: var(--font-body-size);
+  font-weight: var(--font-body-weight);
+  line-height: var(--line-height);
+  text-align: right;
+  margin-top: var(--paragraph-spacing);
+  margin-bottom: var(--paragraph-spacing);
+}
+
+/* 标题标记 */
+.marker {
+  display: inline;
+}

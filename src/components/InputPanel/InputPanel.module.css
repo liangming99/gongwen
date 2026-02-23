@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: white;
+  border-right: 1px solid #e8e8e8;
+}
+
+.toolbar {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  border-bottom: 1px solid #e8e8e8;
+  background: #fafafa;
+}
+
+.toolbarTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stats {
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  gap: 12px;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.textareaWrapper {
+  flex: 1;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: '仿宋', FangSong, '仿宋_GB2312', 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 16px;
+  background: transparent;
+  color: #333;
+  overflow: auto;
+}
+
+.textarea::placeholder {
+  color: #bfbfbf;
+}
+
+.tips {
+  padding: 12px 16px;
+  background: #f6ffed;
+  border-top: 1px solid #b7eb8f;
+  font-size: 12px;
+  color: #52c41a;
+}
+
+.tipsTitle {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.tipsList {
+  margin: 0;
+  padding-left: 16px;
+  color: #666;
+}
+
+.tipsList li {
+  margin-bottom: 2px;
+}
+
+.clearBtn {
+  font-size: 12px;
+  color: #999;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.clearBtn:hover {
+  color: #f5222d;
+  background: #fff1f0;
+}
